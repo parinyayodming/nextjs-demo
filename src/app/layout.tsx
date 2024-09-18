@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -67,7 +68,8 @@ export default function RootLayout({
             <h2 className="text-center">Developed by parinya yordming @2024</h2>
           </div>
         </footer>
-        <Analytics />;
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
