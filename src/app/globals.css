@@ -9,22 +9,29 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-rgb: linear-gradient(-180deg, #f53d2d, #f63);
+    --color-rgb: #f53d2d;
   }
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f5f5f5;
 }
 
-nav {
-  background: linear-gradient(-180deg, #f53d2d, #f63);
+body {
+  background-color: white;
+}
+
+nav ul li a {
+  color: var(--color-rgb) !important;
+}
+
+footer {
+  color: var(--color-rgb);
 }
 
 .price {
-  color: #ee4d2d;
+  color: var(--color-rgb)
 }

@@ -15,7 +15,7 @@ export default function AboutLayout({
   return (
     <>
       <b>Header About</b>
-      {children}
+      <div className="mt-7">{children}</div>
     </>
   );
 }

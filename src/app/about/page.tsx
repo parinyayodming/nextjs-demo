@@ -2,6 +2,6 @@ import React from "react";
 
 type Props = {};
 
-export default function page({}: Props) {
-  return <div>page</div>;
+export default function About({}: Props) {
+  return <div>About</div>;
 }

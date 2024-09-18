@@ -12,7 +12,7 @@ export default async function Home({}: Props) {
 
   return (
     <div>
-      <div className="grid gap-2 grid-cols-fluid">
+      <div className="grid gap-5 grid-cols-fluid">
         {res.products.map((product: any) => (
           <Product
             key={product.id}
