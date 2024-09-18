@@ -662,6 +662,18 @@ video {
 .grid-cols-fluid {
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 }
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
 }
@@ -676,6 +688,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .self-center {
   align-self: center;
@@ -825,8 +840,20 @@ footer {
     width: auto;
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-fluid {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
