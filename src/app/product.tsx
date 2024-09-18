@@ -24,8 +24,8 @@ export default function product({
         <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
           <Image
             src={thumbnail}
-            width={600}
-            height={600}
+            width={800}
+            height={800}
             alt={title}
             className="w-full h-48 object-cover object-center"
           />

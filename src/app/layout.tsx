@@ -48,6 +48,14 @@ export default function RootLayout({
                     About
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/blog/Hello"
+                    className="block py-2 pl-3 pr-4 text-white md:bg-transparent md: md:p-0"
+                  >
+                    Blog
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -55,7 +63,7 @@ export default function RootLayout({
         <div className="container mx-auto my-7 px-4">{children}</div>
         <footer className="py-7">
           <div className="container mx-auto">
-            <h2 className="text-center">developed by parinya yordming @2024</h2>
+            <h2 className="text-center">Developed by parinya yordming @2024</h2>
           </div>
         </footer>
       </body>
